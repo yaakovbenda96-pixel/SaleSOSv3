@@ -1314,7 +1314,7 @@ let aiWordCount = "75";
 let conversationHistory = [];
 let savedConversations = load("sos_saved_convos", []);
 let customSystemPrompt = load("sos_system_prompt", null);
-let anthropicApiKey = localStorage.getItem("sos_api_key") || "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";
+let anthropicApiKey = localStorage.getItem("sos_api_key") || "";
 let customQuickPrompts = load("sos_quick_prompts", null);
 let clientConfig = load("sos_client_config", { productName: CONFIG.productName, tagline: CONFIG.tagline });
 
